@@ -14,13 +14,14 @@
 		B1D366851B5CEC1A003AA1F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D366841B5CEC1A003AA1F4 /* Images.xcassets */; };
 		B1D366881B5CEC1A003AA1F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D366861B5CEC1A003AA1F4 /* LaunchScreen.xib */; };
 		B1D366941B5CEC1B003AA1F4 /* BubbleTeaFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366931B5CEC1B003AA1F4 /* BubbleTeaFinderTests.swift */; };
-		B1D366A81B5CEF65003AA1F4 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366A71B5CEF65003AA1F4 /* Stats.swift */; };
-		B1D366AA1B5CEF65003AA1F4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366A91B5CEF65003AA1F4 /* Category.swift */; };
-		B1D366AC1B5CEF65003AA1F4 /* PriceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366AB1B5CEF65003AA1F4 /* PriceInfo.swift */; };
-		B1D366AE1B5CEF66003AA1F4 /* Loaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366AD1B5CEF66003AA1F4 /* Loaction.swift */; };
-		B1D366B01B5CEF66003AA1F4 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366AF1B5CEF66003AA1F4 /* Venue.swift */; };
 		B1D366B21B5CF001003AA1F4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366B11B5CF001003AA1F4 /* CoreDataStack.swift */; };
 		B1D366B61B5D1636003AA1F4 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366B51B5D1636003AA1F4 /* FilterViewController.swift */; };
+		B1D366B81B5E1329003AA1F4 /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D366B71B5E1329003AA1F4 /* seed.json */; };
+		B1D366C61B5E197D003AA1F4 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366C51B5E197D003AA1F4 /* Venue.swift */; };
+		B1D366C81B5E197D003AA1F4 /* PriceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366C71B5E197D003AA1F4 /* PriceInfo.swift */; };
+		B1D366CA1B5E197D003AA1F4 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366C91B5E197D003AA1F4 /* Stats.swift */; };
+		B1D366CC1B5E197D003AA1F4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366CB1B5E197D003AA1F4 /* Category.swift */; };
+		B1D366D01B5E1E7B003AA1F4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D366CF1B5E1E7B003AA1F4 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +46,14 @@
 		B1D3668D1B5CEC1A003AA1F4 /* BubbleTeaFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTeaFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D366921B5CEC1A003AA1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1D366931B5CEC1B003AA1F4 /* BubbleTeaFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTeaFinderTests.swift; sourceTree = "<group>"; };
-		B1D366A71B5CEF65003AA1F4 /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
-		B1D366A91B5CEF65003AA1F4 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		B1D366AB1B5CEF65003AA1F4 /* PriceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceInfo.swift; sourceTree = "<group>"; };
-		B1D366AD1B5CEF66003AA1F4 /* Loaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loaction.swift; sourceTree = "<group>"; };
-		B1D366AF1B5CEF66003AA1F4 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		B1D366B11B5CF001003AA1F4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		B1D366B51B5D1636003AA1F4 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		B1D366B71B5E1329003AA1F4 /* seed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seed.json; sourceTree = "<group>"; };
+		B1D366C51B5E197D003AA1F4 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		B1D366C71B5E197D003AA1F4 /* PriceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceInfo.swift; sourceTree = "<group>"; };
+		B1D366C91B5E197D003AA1F4 /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		B1D366CB1B5E197D003AA1F4 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B1D366CF1B5E1E7B003AA1F4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,20 +95,21 @@
 		B1D366771B5CEC1A003AA1F4 /* BubbleTeaFinder */ = {
 			isa = PBXGroup;
 			children = (
+				B1D366CF1B5E1E7B003AA1F4 /* Location.swift */,
+				B1D366CB1B5E197D003AA1F4 /* Category.swift */,
+				B1D366C91B5E197D003AA1F4 /* Stats.swift */,
+				B1D366C71B5E197D003AA1F4 /* PriceInfo.swift */,
+				B1D366C51B5E197D003AA1F4 /* Venue.swift */,
 				B1D366B51B5D1636003AA1F4 /* FilterViewController.swift */,
-				B1D366AF1B5CEF66003AA1F4 /* Venue.swift */,
-				B1D366AD1B5CEF66003AA1F4 /* Loaction.swift */,
-				B1D366AB1B5CEF65003AA1F4 /* PriceInfo.swift */,
-				B1D366A91B5CEF65003AA1F4 /* Category.swift */,
-				B1D366A71B5CEF65003AA1F4 /* Stats.swift */,
 				B1D3667A1B5CEC1A003AA1F4 /* AppDelegate.swift */,
 				B1D3667F1B5CEC1A003AA1F4 /* ViewController.swift */,
 				B1D366811B5CEC1A003AA1F4 /* Main.storyboard */,
 				B1D366841B5CEC1A003AA1F4 /* Images.xcassets */,
 				B1D366861B5CEC1A003AA1F4 /* LaunchScreen.xib */,
 				B1D3667C1B5CEC1A003AA1F4 /* BubbleTeaFinder.xcdatamodeld */,
-				B1D366781B5CEC1A003AA1F4 /* Supporting Files */,
 				B1D366B11B5CF001003AA1F4 /* CoreDataStack.swift */,
+				B1D366B71B5E1329003AA1F4 /* seed.json */,
+				B1D366781B5CEC1A003AA1F4 /* Supporting Files */,
 			);
 			path = BubbleTeaFinder;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				B1D366831B5CEC1A003AA1F4 /* Main.storyboard in Resources */,
 				B1D366881B5CEC1A003AA1F4 /* LaunchScreen.xib in Resources */,
+				B1D366B81B5E1329003AA1F4 /* seed.json in Resources */,
 				B1D366851B5CEC1A003AA1F4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,15 +241,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1D366801B5CEC1A003AA1F4 /* ViewController.swift in Sources */,
-				B1D366B01B5CEF66003AA1F4 /* Venue.swift in Sources */,
-				B1D366AA1B5CEF65003AA1F4 /* Category.swift in Sources */,
+				B1D366CA1B5E197D003AA1F4 /* Stats.swift in Sources */,
+				B1D366D01B5E1E7B003AA1F4 /* Location.swift in Sources */,
+				B1D366C61B5E197D003AA1F4 /* Venue.swift in Sources */,
+				B1D366C81B5E197D003AA1F4 /* PriceInfo.swift in Sources */,
 				B1D366B21B5CF001003AA1F4 /* CoreDataStack.swift in Sources */,
 				B1D366B61B5D1636003AA1F4 /* FilterViewController.swift in Sources */,
-				B1D366A81B5CEF65003AA1F4 /* Stats.swift in Sources */,
 				B1D3667E1B5CEC1A003AA1F4 /* BubbleTeaFinder.xcdatamodeld in Sources */,
-				B1D366AE1B5CEF66003AA1F4 /* Loaction.swift in Sources */,
 				B1D3667B1B5CEC1A003AA1F4 /* AppDelegate.swift in Sources */,
-				B1D366AC1B5CEF65003AA1F4 /* PriceInfo.swift in Sources */,
+				B1D366CC1B5E197D003AA1F4 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +445,7 @@
 				B1D366991B5CEC1B003AA1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1D3669A1B5CEC1B003AA1F4 /* Build configuration list for PBXNativeTarget "BubbleTeaFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				B1D3669C1B5CEC1B003AA1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

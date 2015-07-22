@@ -21,17 +21,18 @@ class CoreDataStack {
         
         let bundle = NSBundle.mainBundle()
         let modelURL =
-        bundle.URLForResource("Model", withExtension:"momd")
+        bundle.URLForResource("BubbleTeaFinder", withExtension:"momd")
         model = NSManagedObjectModel(contentsOfURL: modelURL!)!
         
         psc = NSPersistentStoreCoordinator(managedObjectModel:model)
         
-        context = NSManagedObjectContext()
+        //context = NSManagedObjectContext()
+        context = NSManagedObjectContext(concurrencyType: NSManagedObjectContextConcurrencyType.MainQueueConcurrencyType)
         context.persistentStoreCoordinator = psc
         
         let documentsURL = applicationDocumentsDirectory()
         let storeURL =
-        documentsURL.URLByAppendingPathComponent("Bubble_Tea_Finder")
+        documentsURL.URLByAppendingPathComponent("BubbleTeaFinder.sqlite")
         
         let options =
         [NSMigratePersistentStoresAutomaticallyOption: true]

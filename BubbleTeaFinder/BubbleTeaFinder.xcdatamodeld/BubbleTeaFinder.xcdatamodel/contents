@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Category" representedClassName="PRODUCT_MODULE_NAME.Category" syncable="YES">
+    <entity name="Category" representedClassName="BubbleTeaFinder.Category" syncable="YES">
         <attribute name="categoryID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="venue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Venue" inverseName="category" inverseEntity="Venue" syncable="YES"/>
     </entity>
-    <entity name="Loaction" representedClassName="PRODUCT_MODULE_NAME.Loaction" syncable="YES">
+    <entity name="Location" representedClassName="BubbleTeaFinder.Location" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
@@ -14,29 +14,30 @@
         <attribute name="zipcode" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="venue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Venue" inverseName="location" inverseEntity="Venue" syncable="YES"/>
     </entity>
-    <entity name="PriceInfo" representedClassName="PRODUCT_MODULE_NAME.PriceInfo" syncable="YES">
+    <entity name="PriceInfo" representedClassName="BubbleTeaFinder.PriceInfo" syncable="YES">
         <attribute name="priceCategory" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="venue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Venue" inverseName="priceInfo" inverseEntity="Venue" syncable="YES"/>
     </entity>
-    <entity name="Stats" representedClassName="PRODUCT_MODULE_NAME.Stats" syncable="YES">
+    <entity name="Stats" representedClassName="BubbleTeaFinder.Stats" syncable="YES">
         <attribute name="checkinsCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="tipCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="usersCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <relationship name="venue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Venue" inverseName="stats" inverseEntity="Venue" syncable="YES"/>
     </entity>
-    <entity name="Venue" representedClassName="PRODUCT_MODULE_NAME.Venue" syncable="YES">
+    <entity name="Venue" representedClassName="BubbleTeaFinder.Venue" syncable="YES">
         <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="specialCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="venue" inverseEntity="Category" syncable="YES"/>
-        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Loaction" inverseName="venue" inverseEntity="Loaction" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="venue" inverseEntity="Location" syncable="YES"/>
         <relationship name="priceInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PriceInfo" inverseName="venue" inverseEntity="PriceInfo" syncable="YES"/>
         <relationship name="stats" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stats" inverseName="venue" inverseEntity="Stats" syncable="YES"/>
     </entity>
+    <fetchRequest name="FetchRequest" entity="Venue"/>
     <elements>
         <element name="Category" positionX="-45" positionY="0" width="128" height="90"/>
-        <element name="Loaction" positionX="-18" positionY="45" width="128" height="150"/>
+        <element name="Location" positionX="-18" positionY="45" width="128" height="150"/>
         <element name="PriceInfo" positionX="9" positionY="63" width="128" height="75"/>
         <element name="Stats" positionX="27" positionY="81" width="128" height="105"/>
         <element name="Venue" positionX="45" positionY="99" width="128" height="165"/>
